@@ -1,0 +1,17 @@
+{
+    "chmod": "0755",
+    "directories": ["ZrInsight", "bin"],
+    "files": [
+        "LICENSE"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": ["Tests"],
+            "in": "vendor"
+        }
+    ],
+    "main": "bin/zrinsight",
+    "output": "build/zrinsight.phar",
+    "stub": true
+}
